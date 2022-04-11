@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-pip install openpyxl
+python -m pip install openpyxl
 import openpyxl
 
 
