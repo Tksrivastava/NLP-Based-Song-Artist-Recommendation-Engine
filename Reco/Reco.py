@@ -5,7 +5,7 @@ import numpy as np
 
 # RUN THIS FIRST - streamlit run "C:/Users/TANUL/PycharmProjects/FinalYearProject/Phase - 2/Reco/Reco.py"
 # Importing Data -
-data = pd.read_excel('Tksrivastava/NLP-Based-Song-Artist-Recommendation-Engine/blob/main/Reco/Final_Recommendation_Data.xlsx')
+data = pd.read_excel('https://github.com/Tksrivastava/NLP-Based-Song-Artist-Recommendation-Engine/blob/main/Reco/Final_Recommendation_Data.xlsx')
 
 # Grouping Data -
 mbti_data = data.groupby('MBTI')
