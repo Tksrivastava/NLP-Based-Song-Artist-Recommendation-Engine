@@ -1,6 +1,8 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
+pip3 install openpyx
+import openpyx
 
 
 # RUN THIS FIRST - streamlit run "C:/Users/TANUL/PycharmProjects/FinalYearProject/Phase - 2/Reco/Reco.py"
