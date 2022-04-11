@@ -4,10 +4,7 @@ import numpy as np
 
 # RUN THIS FIRST - streamlit run "C:/Users/TANUL/PycharmProjects/FinalYearProject/Phase - 2/Reco/Reco.py"
 # Importing Data -
-url='https://docs.google.com/spreadsheets/d/1VwJcDHE6ONXRWf_0kUJDQn6893ucJJwL/edit?usp=sharing&ouid=100762398202288299762&rtpof=true&sd=true'
-file_id=url.split('/')[-2]
-dwn_url='https://drive.google.com/uc?id=' + file_id
-data = pd.read_excel(dwn_url)
+data = pd.read_excel('https://github.com/Tksrivastava/NLP-Based-Song-Artist-Recommendation-Engine/Reco/Final_Recommendation_Data.xlsx')
 
 # Grouping Data -
 mbti_data = data.groupby('MBTI')
